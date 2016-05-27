@@ -1,129 +1,58 @@
-
-
-
-/* The @media is only if the screen is less then 480px wide */
-@media screen and (max-width: 414px) {
-
-
-
-
-
-} /* end of @media */
-
-
 /* Reset margin and padding */
 * {
-	padding: 0px;
-	margin: 0px;
-}
+  padding: 0px;
+  margin: 0px; }
 
 a {
-	text-decoration: none;
-}
+  text-decoration: none; }
 
-
+body {
+  background-color: #ECE59A; }
 
 /* Top Nav Bar */
 #top_nav_container {
-	width: 973px;
-	height: 140px;
-	margin: 0 auto;
-	/*background-color: orange;*/
-}
+  width: 973px;
+  height: 140px;
+  margin: 0 auto; }
 
 /* Top Half */
 #top_half {
-	height: 120px;
-	background-color: white;
-}
+  height: 120px;
+  background-color: white; }
+  #top_half ul li {
+    display: inline-block;
+    width: 110px;
+    height: 75px;
+    vertical-align: top;
+    padding: 20px 0px 20px 20px;
+    font-size: 0.7em;
+    border-bottom: 5px solid #848D82; }
+  #top_half ul li:hover {
+    border-bottom: 5px solid #FD6E8A; }
+  #top_half li:nth-child(5), #top_half #top_half li:nth-child(6), #top_half #top_half li:nth-child(7) {
+    border-left: 1px solid #d3d3d3; }
 
-	#top_half ul li {
-		display: inline-block;
-		width: 110px;
-		height: 75px;
-		vertical-align: top;
-		padding: 20px 0px 20px 20px;
-		font-size: 0.7em;
-		border-bottom: 5px solid black;
-	}
-
-	#top_half ul li:hover {
-		border-bottom: 5px solid red;
-	}
-
-	#top_half li:nth-child(5), #top_half li:nth-child(6), #top_half li:nth-child(7) {
-		border-left: 1px solid #d3d3d3;
-	}
-
-	#main_logo {
-		height: 75px;
-		background-color: red;
-	}
-
-	#main_logo img {
-		margin-left: -10px;
-		/*border: 1px solid black;*/
-	}
-
+#main_logo {
+  height: 75px;
+  background-color: #FD6E8A; }
+  #main_logo img {
+    margin-left: -10px; }
 
 /* Bottom Half */
 #bottom_half {
-/*	height: 50px;*/
-	background-color: white;
-	margin-top: -5px;
-}
-
-	#bottom_half ul li {
-		display: inline-block;
-	}
-
-	#bottom_half ul {
-		display: inline-block;
-		vertical-align: middle;
-	}
-
-	#browse {
-		width: 110px;
-		padding: 10px;
-		background-color: red;
-	}
-
-	#browse {
-		margin: 0 auto;
-	}
-
-	#section_nav li {
-		/*border: 1px solid black;*/
-		padding-left: 10px;
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  background-color: white;
+  margin-top: -5px; }
+  #bottom_half ul li {
+    display: inline-block; }
+  #bottom_half ul {
+    display: inline-block;
+    vertical-align: middle; }
+  #bottom_half #browse {
+    width: 110px;
+    padding: 10px;
+    background-color: #FD6E8A; }
+  #bottom_half #browse {
+    margin: 0 auto; }
+  #bottom_half #section_nav li {
+    /*border: 1px solid black; */
+    padding-left: 10px; }
